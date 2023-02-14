@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardView_adapter"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginLeft="4dp"
-    android:layout_marginRight="4dp"
     android:layout_marginTop="4dp"
+    android:layout_marginRight="4dp"
     android:layout_marginBottom="4dp"
     android:transitionName="ExampleTransition"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="#FAFAFA"
     app:cardCornerRadius="12dp">
 
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="159dp">
-
-        <ImageView
-            android:id="@+id/imageClass_adapter"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/product_bg" />
+        android:layout_height="wrap_content"
+        >
 
         <RelativeLayout
             android:id="@+id/frame_bg"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingLeft="12dp"
             android:paddingTop="12dp"
@@ -52,7 +45,6 @@
                 android:text="Cloud Computing"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-
                 android:textStyle="bold" />
 
             <TextView
